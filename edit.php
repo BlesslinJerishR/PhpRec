@@ -107,7 +107,7 @@ if(isset($_POST['update'])) // when click on Update button
 <div class="bodysoda"></div>
 <h3>Update Data</h3>
 
-<form method="POST">
+<form method="POST" data-netlify="true">
   <input type="text" name="fullname" value="<?php echo $data['fullname'] ?>" placeholder="Enter Full Name" Required>
   <input type="text" name="age" value="<?php echo $data['age'] ?>" placeholder="Enter Age" Required>
   <input type="submit" name="update" value="Update" style="text-decoration: none; background-color: purple; color: #FFFFFF;">
