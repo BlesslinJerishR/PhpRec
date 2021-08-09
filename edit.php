@@ -36,6 +36,7 @@ if(isset($_POST['update'])) // when click on Update button
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Edit Details</title>
+  <link rel="icon" href="db.png" type="image/icon type">
 </head>
 <style media="screen">
   @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");

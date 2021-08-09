@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Display all records from Database</title>
+  <title>Database Records</title>
+  <link rel="icon" href="db.png" type="image/icon type">
 </head>
 <style media="screen">
   @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
@@ -55,7 +56,7 @@
     width: 595px;
     border-radius: 10px;
   }
-  
+
 </style>
 <body>
 <div class="bodysoda"></div>
