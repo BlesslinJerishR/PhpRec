@@ -19,7 +19,7 @@ if(isset($_POST['update'])) // when click on Update button
     if($edit)
     {
         mysqli_close($db); // Close connection
-        header("location:all_records.php"); // redirects to all records page
+        header("location:index.php"); // redirects to all records page
         exit;
     }
     else
