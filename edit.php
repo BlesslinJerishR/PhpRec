@@ -29,17 +29,92 @@ if(isset($_POST['update'])) // when click on Update button
 }
 ?>
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Edit Details</title>
+</head>
+<style media="screen">
+  @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+   html, body{
+   font-family: "Roboto", sans-serif !important;
+   }
+
+  html, body{
+    background-color: #1D1E21;
+    color: #FFFFFF;
+    overflow: hidden;
+    height: 100%;
+  }
+
+  body{
+    font-size: 24px;
+    position: relative;
+    left: 30%;
+    top: 200px;
+  }
+
+
+  footer{
+    font-size: 18px !important;
+    position: relative;
+    left: 10%;
+    top: 50%;
+  }
+
+  h2{
+    position: relative;
+    left: 11%;
+  }
+
+  h3{
+    position: relative;
+    left: 14%;
+  }
+
+  form{
+     position: relative;
+     top: %;
+     left: 4%;
+     font-size: 30px;
+  }
+
+  a{
+    text-decoration: none;
+    color: violet;
+  }
+
+  input{
+    height: 35px;
+    border-radius: 4px;
+    font-size: 15px;
+
+  }
+  .bodysoda{
+    border: 3px solid violet;
+    height: 200px;
+    position: absolute;
+    width: 595px;
+    border-radius: 10px;
+  }
+</style>
+<body>
+<div class="bodysoda"></div>
 <h3>Update Data</h3>
 
 <form method="POST">
   <input type="text" name="fullname" value="<?php echo $data['fullname'] ?>" placeholder="Enter Full Name" Required>
   <input type="text" name="age" value="<?php echo $data['age'] ?>" placeholder="Enter Age" Required>
-  <input type="submit" name="update" value="Update">
+  <input type="submit" name="update" value="Update" style="text-decoration: none; background-color: purple; color: #FFFFFF;">
 </form>
 
 <footer id="foot" style="color: #FFFFFF; font-family: 'Courier';">
     <p>
-      <script>document.write(new Date().getFullYear());</script> &copy; Made with &#10084;&#65039; & CSS<br><img src="mastermind.png" height="30px" width="30px" style="position: relative; left: 1%; top: 6px;">&nbsp; by <a href="https://github.com/Mastermindx33/" target="_blank" rel="nofollow noopener" style="text-decoration: none !important;"><span style="color: #FF0000;">Mastermind</span></a>
+      <script>document.write(new Date().getFullYear());</script> &copy; Made with &#10084;&#65039; & CSS<br> &nbsp; &nbsp;<img src="mastermind.png" height="30px" width="30px" style="position: relative; left: 1%; top: 6px;">&nbsp; by <a href="https://github.com/Mastermindx33/" target="_blank" rel="nofollow noopener" style="text-decoration: none !important;"><span style="color: #FF0000;">Mastermind</span></a>
     </p>
 </footer>
 
@@ -60,3 +135,6 @@ if(isset($_POST['update'])) // when click on Update button
   <input type="text" name="age2" value="<?php echo $data['age2'] - 1 ?>" placeholder="Enter Age" Required>
   <input type="submit" name="update" value="Update">
 </form> -->
+
+</body>
+</html>

@@ -55,6 +55,7 @@
     width: 595px;
     border-radius: 10px;
   }
+  
 </style>
 <body>
 <div class="bodysoda"></div>
