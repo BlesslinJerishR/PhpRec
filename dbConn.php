@@ -1,6 +1,11 @@
 <?php
 
-$db = mysqli_connect("sql207.epizy.com","epiz_29372159","apple007@","tblemp");
+$server = "sql207.epizy.com";
+$username = "epiz_29372159";
+$password = "kLHc4RXEr75JF";
+$dbname = "epiz_29372159_tblemp";
+
+$db = mysqli_connect($server, $username, $password, $dbname);
 
 if(!$db)
 {
