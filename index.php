@@ -34,7 +34,7 @@
 
   h2{
     position: relative;
-    left: 11%;
+    left: 9%;
   }
 
   table{
